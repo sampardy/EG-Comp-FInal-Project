@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title>Page Title</title>
+    <title>Homelessness in the United States</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light navbar-light"><img src="https://unsplash.it/30/30" class="mr-2"><a class="navbar-brand" href="#">Brand</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -26,57 +26,114 @@
     </nav>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Title of site</h1>
-        <p class="lead">Short blurb about the project subject</p>
+        <h1 class="display-4">Homelessness In America</h1>
+        <p class="lead">Homelessness is an important issue in the United States, as we have the second largest homeless population in North America at around 580,466 homeless individuals per night. This site looks at the demographics of homelessness in our country and its correlation with other statistics.
+        </p>
       </div>
-    </div>
-    <div>
-      <style>
-        iframe{
-          width: 1200px;
-          height: 500px;
-        }
-      </style>
-      <iframe src="homeless_data_embed.html"></iframe>
     </div>
     <div class="container" id="bsr-wrapper">
       <h1>Poverty in America and its Causes</h1>
       <p>Contains some information about our project and why we decided upon it and what we hope to achieve</p>
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="card ">
-            <div class="card-header">Visualization 1</div>
-            <div class="card-body "> Information about one of our visualizations<p class="mt-3"><a type="button" class="btn btn-primary text-light">Button</a></p>
+      
+        <div class="accordion" id="accordion62894682">
+            <div class="card">
+                <div class="card-header" id="header-0">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel5583538" aria-expanded="false" aria-controls="header-0">Visualization 1</button>
+                    </h2>
+                </div>
+                <div id="panel5583538" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion62894682">
+                    <div class="card-body">This graph compares state total populations with state homeless populations to determine the states with the highest and lowest ratios of homeless to total populations</div>
+                    <div>
+                        <style>
+                          iframe{
+                            width: 1100px;
+                            height: 500px;
+                          }
+                        </style>
+                        <iframe src="homeless_data_embed.html"></iframe>
+                      </div>
+                </div>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item ">List item</li>
-            </ul>
-            <div class="card-footer"><small>Last updated 3 mins ago</small></div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="card ">
-            <div class="card-header">Visualization 2</div>
-            <div class="card-body "> Information about visualization 2 <p class="mt-3"><a type="button" class="btn btn-primary text-light">Button</a></p>
+            <div class="card">
+                <div class="card-header" id="header-1">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel27469153" aria-expanded="false" aria-controls="header-1">Visualization 2</button>
+                    </h2>
+                </div>
+                <div id="panel27469153" class="collapse" aria-labelledby="headingOne" data-parent="#accordion62894682">
+                    <div class="card-body">These bar graphs illustrate how some of the different demographics of homelessness are distributed in the largest states in the US. They look at whether homeless people are individuals or in families. Additionally, these graphs address the availability of shelter by exploring how many of the homeless are sheltered or not. They indicate that perhaps homeless families are more likely to be sheltered than homeless individuals. </div>
+                    <div>
+                      <style>
+                        iframe{
+                          width: 1100px;
+                          height: 1000px;
+                        }
+                      </style>
+                      <iframe src="state_demographic_bar.html"></iframe>
+                    </div>
+                </div>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item ">List item</li>
-            </ul>
-            <div class="card-footer"><small>Last updated 3 mins ago</small></div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="card ">
-            <div class="card-header">Visualization 3</div>
-            <div class="card-body "> Information about visualization 3 <p class="mt-3"><a type="button" class="btn btn-primary text-light">Button</a></p>
+            <div class="card">
+                <div class="card-header" id="header-1">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel27469154" aria-expanded="false" aria-controls="header-1">Visualization 3</button>
+                    </h2>
+                </div>
+                <div id="panel27469154" class="collapse" aria-labelledby="headingOne" data-parent="#accordion62894682">
+                    <div class="card-body">This choropleth heatmap illustrates the difference in rent prices across the country. Rent, along with real-estate prices, both markers of the cost of housing, is obviously something heavily intertwined with homelessness. It is important to truly understand how expensive housing can be in order to understand the plight of the homeless.</div>
+                    <div>
+                      <style>
+                        iframe{
+                          width: 1100px;
+                          height: 800px;
+                        }
+                      </style>
+                      <iframe src="rent_choropleth.html"></iframe>
+                    </div>
+                </div>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item ">List item</li>
-            </ul>
-            <div class="card-footer"><small>Last updated 3 mins ago</small></div>
-          </div>
+            <div class="card">
+                <div class="card-header" id="header-1">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel27469157" aria-expanded="false" aria-controls="header-1">Visualization 4</button>
+                    </h2>
+                </div>
+                <div id="panel27469157" class="collapse" aria-labelledby="headingOne" data-parent="#accordion62894682">
+                    <div class="card-body">One question we had embarking upon this project was whether homelessness was connected to factors such as education. We created this scatter plot to assess whether states with higher rates of high school graduation had lower rates of homelessness. Based on this graph, there seems to be little correlation, indicating that homelessness is a malady that can befall anyone, even those with a higher level of education.</div>
+                    <div>
+                      <style>
+                        iframe{
+                          width: 1100px;
+                          height: 500px;
+                        }
+                      </style>
+                      <iframe src="hmls_highschool_scatter.html"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="header-1">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel27469123" aria-expanded="false" aria-controls="header-1">Visualization 5</button>
+                    </h2>
+                </div>
+                <div id="panel27469123" class="collapse" aria-labelledby="headingOne" data-parent="#accordion62894682">
+                    <div class="card-body">Lorem ipsum dolor sit amet.</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="header-2">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel33668889" aria-expanded="false" aria-controls="header-2">Visualization 6</button>
+                    </h2>
+                </div>
+                <div id="panel33668889" class="collapse" aria-labelledby="headingOne" data-parent="#accordion62894682">
+                    <div class="card-body">Lorem ipsum dolor sit amet.</div>
+                </div>
+            </div>
         </div>
-      </div>
+    
     </div>
     <footer class="bg-light text-light pt-5 pb-2 px-5">
       <div class="row">
